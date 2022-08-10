@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class Test8
+{
+public static void main(String args[])
+{
+Scanner sc = new Scanner(System.in);
+String str;
+
+System.out.println("Enter any string:");
+str=sc.nextLine();
+
+StringBuffer sb=new StringBuffer(str);
+
+System.out.println(sb);
+System.out.println("Length of string="+sb.length());
+}
+}

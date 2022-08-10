@@ -1,0 +1,34 @@
+interface i1
+{
+void f1();
+}
+interface i2
+{
+void f2();
+}
+class First implements i1, i2
+{
+void f3()
+{
+System.out.println("World");
+}
+public void f1()
+{
+System.out.println("Hi");
+}
+/*public void f2()
+{
+System.out.println("Hello");
+}*/
+
+}
+class Test
+{
+public static void main(String args[])
+{
+First st=new First();
+st.f1();
+st.f2();
+st.f3();
+}
+}

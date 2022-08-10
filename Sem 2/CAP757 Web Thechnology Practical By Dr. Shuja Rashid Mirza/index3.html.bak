@@ -1,0 +1,40 @@
+<html>
+  <head>
+     <title>Passport Form</title>
+  </head>
+  <body>Passport Form
+     <form>
+      <fieldset>
+         <legend> User Info </legend>
+		 <label> Title </label><br>
+		   <input type="radio" name="title"> Mr.<br>
+           <input type="radio" name="title"> Mrs.<br>
+           <input type="radio" name="title"> Ms.<br>
+		   <label>Enter First Name:</label>
+           <input type="text" placeholder="first name"><br>
+		   <label>Enter Last Name:</label>
+           <input type="text" placeholder="last name"><br>
+		   <label>Enter your Address:</label>
+		   <input type="text" placeholder="address"><br>
+		   <label> Gender </label><br>
+         <input type="radio" name="title"> Male
+         <input type="radio" name="title"> Female
+         <input type="radio" name="title"> Transgender
+         
+		   
+      </fieldset>
+       
+       
+           
+    </form>
+       <label>Photograph upload </label>
+        <input type="file">
+	   <label>Signature upload</label>
+	    <input type="file"><br>
+		<input type="checkbox">I agree to terms and conditions.<br>
+
+	   <button type="submit">
+         submit 
+       </button>
+  </body>
+<html>

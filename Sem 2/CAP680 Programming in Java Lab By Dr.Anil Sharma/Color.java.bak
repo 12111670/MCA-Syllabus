@@ -1,0 +1,66 @@
+import java.util.Scanner;
+class Color
+{
+    	  
+	public static void main(String args[])
+	{ 
+	 
+		Scanner sc=new Scanner(System.in);
+		//creating infinite loop.
+		while(true)
+		{
+		    //To displaying color code.
+
+			System.out.println("\nColor value:1111");
+			System.out.println("Color value:0000");
+			System.out.println("Color value:0001");
+			System.out.println("Color value:1011");
+			System.out.println("Color value:1110");
+			System.out.println("Color value:0111");
+			System.out.println("Color value:1101");
+			System.out.println("For exit to the loop:8888");//For exiting to the loop.
+			
+			System.out.print("\nEnter a color value (only 4 digits) :#");
+		    int value=sc.nextInt();     
+			
+			switch(value)//creating switch cases.
+            {
+                case 1111:
+			
+                     System.out.println("\nColor Name: White.\n");
+                     break;
+				 
+                case 0000:
+				
+                     System.out.println("\nColor Name: Black.\n");
+				     break;
+                case 0001:
+				
+                     System.out.println("\nColor Name: Blue.\n");
+                     break;
+				
+				case 1011:
+				
+                     System.out.println("\nColor Name: Green.\n");
+				     break;
+				case 1110:
+				
+                     System.out.println("\nColor Name: Red.\n");
+				     break;
+				case 1101:
+				
+                     System.out.println("\nColor Name: Orange.\n");
+				     break;
+                case 8888:
+			  
+				   	 System.exit(0);//For exit to the loop.
+				
+				default:
+			
+                    System.out.println("You have enter wrong color value.\n");
+			        break;
+				
+			}		
+		}
+    }
+}	

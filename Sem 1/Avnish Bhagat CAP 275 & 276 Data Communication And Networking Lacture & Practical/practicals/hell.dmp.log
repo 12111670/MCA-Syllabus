@@ -1,0 +1,266 @@
+Wed Dec 15 17:05:02 2021: Starting Cisco Packet Tracer 8.0.0.0212
+Wed Dec 15 17:05:02 2021: c:\users\cisco\jenkins\workspace\m_sgme_pt80_win64_cae\engine\ipc\ccep.cpp(349):WARN  - Forced an exapp to be MANDATORY at run-time.
+Wed Dec 15 17:05:02 2021: c:\users\cisco\jenkins\workspace\m_sgme_pt80_win64_cae\engine\ipc\ccep.cpp(349):WARN  - Forced an exapp to be MANDATORY at run-time.
+Wed Dec 15 17:05:05 2021: Script Module starting: 
+Wed Dec 15 17:05:05 2021: Opening file: C:\Users\DELL\Desktop\practicalCA3.pkt
+Wed Dec 15 17:05:06 2021: Changed device name:  to Router0
+Wed Dec 15 17:05:06 2021: Changed device name:  to Power Distribution Device0
+Wed Dec 15 17:05:06 2021: Changed device name:  to Router1
+Wed Dec 15 17:05:06 2021: Changed device name:  to Router2
+Wed Dec 15 17:05:06 2021: Changed device name:  to Switch1
+Wed Dec 15 17:05:06 2021: Changed device name:  to Switch2
+Wed Dec 15 17:05:06 2021: Changed device name:  to Switch3
+Wed Dec 15 17:05:06 2021: Changed device name:  to PC0
+Wed Dec 15 17:05:06 2021: Changed device name:  to PC1
+Wed Dec 15 17:05:06 2021: Changed device name:  to PC2
+Wed Dec 15 17:05:06 2021: Changed device name:  to PC6
+Wed Dec 15 17:05:06 2021: Changed device name:  to PC7
+Wed Dec 15 17:05:06 2021: Changed device name:  to PC8
+Wed Dec 15 17:05:06 2021: Changed device name:  to PC9
+Wed Dec 15 17:05:06 2021: Changed device name:  to PC10
+Wed Dec 15 17:05:06 2021: Changed device name:  to PC11
+Wed Dec 15 17:05:06 2021: Changed device name:  to Server0
+Wed Dec 15 17:05:06 2021: Changed device name:  to Server2
+Wed Dec 15 17:05:06 2021: Changed device name:  to Server4
+Wed Dec 15 17:05:06 2021: Changed device name:  to Power Distribution Device1
+Wed Dec 15 17:05:06 2021: Changed device name:  to Server1
+Wed Dec 15 17:05:06 2021: Router0: Router> enable
+Wed Dec 15 17:05:06 2021: Router0: Router# configure terminal
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# interface Serial2/0
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# ip address 10.0.0.1 255.0.0.0
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# ip address 10.0.0.1 255.0.0.0
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# no shutdown
+Wed Dec 15 17:05:06 2021: Router2: Router> enable
+Wed Dec 15 17:05:06 2021: Router2: Router# configure terminal
+Wed Dec 15 17:05:06 2021: Router2: Router(config)# interface Serial3/0
+Wed Dec 15 17:05:06 2021: Router2: Router(config-if)# ip address 20.0.0.1 255.0.0.0
+Wed Dec 15 17:05:06 2021: Router2: Router(config-if)# ip address 20.0.0.1 255.0.0.0
+Wed Dec 15 17:05:06 2021: Router2: Router(config-if)# no shutdown
+Wed Dec 15 17:05:06 2021: Router2: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router2: Router(config)# interface Serial2/0
+Wed Dec 15 17:05:06 2021: Router2: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router2: Router(config)# interface Serial3/0
+Wed Dec 15 17:05:06 2021: Router2: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router2: Router(config)# interface Serial2/0
+Wed Dec 15 17:05:06 2021: Router2: Router(config-if)# ip address 10.0.0.1 255.0.0.0
+Wed Dec 15 17:05:06 2021: Router2: Router(config-if)# ip address 10.0.0.1 255.0.0.0
+Wed Dec 15 17:05:06 2021: Router2: Router(config-if)# no shutdown
+Wed Dec 15 17:05:06 2021: Router1: Router> enable
+Wed Dec 15 17:05:06 2021: Router1: Router# configure terminal
+Wed Dec 15 17:05:06 2021: Router1: Router(config)# interface Serial2/0
+Wed Dec 15 17:05:06 2021: Router1: Router(config-if)# no ip address
+Wed Dec 15 17:05:06 2021: Router1: Router(config-if)# ip address 20.0.0.1 255.0.0.0
+Wed Dec 15 17:05:06 2021: Router1: Router(config-if)# ip address 20.0.0.1 255.0.0.0
+Wed Dec 15 17:05:06 2021: Router1: Router(config-if)# no shutdown
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# interface Serial3/0
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# interface Serial3/0
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# interface Serial2/0
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# interface Serial3/0
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# ip address 30.0.0.1 255.0.0.0
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# ip address 30.0.0.1 255.0.0.0
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# no shutdown
+Wed Dec 15 17:05:06 2021: Router1: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router1: Router(config)# interface Serial3/0
+Wed Dec 15 17:05:06 2021: Router1: Router(config-if)# ip address 30.0.0.1 255.0.0.0
+Wed Dec 15 17:05:06 2021: Router1: Router(config-if)# ip address 30.0.0.1 255.0.0.0
+Wed Dec 15 17:05:06 2021: Router1: Router(config-if)# no shutdown
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# interface FastEthernet0/0
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# interface FastEthernet1/0
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# interface FastEthernet0/0
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# interface FastEthernet1/0
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# interface FastEthernet4/0
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# interface FastEthernet1/0
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# interface FastEthernet4/0
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# interface FastEthernet1/0
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# interface FastEthernet0/0
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# interface FastEthernet0/0
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# router rip
+Wed Dec 15 17:05:06 2021: Router0: Router(config-router)# end
+Wed Dec 15 17:05:06 2021: Router0: Router# configure terminal
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# interface Serial2/0
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# interface Serial3/0
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# interface FastEthernet0/0
+Wed Dec 15 17:05:06 2021: Router0: Router> enable
+Wed Dec 15 17:05:06 2021: Router0: Router# configure terminal
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# interface FastEthernet0/0
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# ip address 192.168.20.1 255.255.255.0
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# ip address 192.168.20.1 255.255.255.0
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# no shutdown
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# interface FastEthernet1/0
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# ip address 192.168.10.1 255.255.255.0
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# ip address 192.168.10.1 255.255.255.0
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# no shutdown
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# router rip
+Wed Dec 15 17:05:06 2021: Router0: Router(config-router)# end
+Wed Dec 15 17:05:06 2021: Router0: Router# configure terminal
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# router rip
+Wed Dec 15 17:05:06 2021: Router0: Router(config-router)# end
+Wed Dec 15 17:05:06 2021: Router0: Router# configure terminal
+Wed Dec 15 17:05:06 2021: Router0: Router> enable
+Wed Dec 15 17:05:06 2021: Router0: Router# configure terminal
+Wed Dec 15 17:05:06 2021: Router0: Router> enable
+Wed Dec 15 17:05:06 2021: Router0: Router# configure terminal
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# router rip
+Wed Dec 15 17:05:06 2021: Router0: Router(config-router)# end
+Wed Dec 15 17:05:06 2021: Router0: Router# configure terminal
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# ip route 192.168.30.0 255.255.255.0 30.0.0.0
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# ip route 192.168.40.0 255.255.255.0 10.0.0.0
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# ip route 192.168.20.0 255.255.255.0 0.0.0.0
+Wed Dec 15 17:05:06 2021: Router2: Router> enable
+Wed Dec 15 17:05:06 2021: Router2: Router# configure terminal
+Wed Dec 15 17:05:06 2021: Router2: Router(config)# interface FastEthernet0/0
+Wed Dec 15 17:05:06 2021: Router2: Router(config-if)# ip address 192.168.40.1 255.255.255.0
+Wed Dec 15 17:05:06 2021: Router2: Router(config-if)# ip address 192.168.40.1 255.255.255.0
+Wed Dec 15 17:05:06 2021: Router2: Router(config-if)# no shutdown
+Wed Dec 15 17:05:06 2021: Router2: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router2: Router(config)# ip route 192.168.10.0 255.255.255.0 10.0.0.0
+Wed Dec 15 17:05:06 2021: Router2: Router(config)# ip route 192.168.20.0 255.255.255.0 10.0.0.0
+Wed Dec 15 17:05:06 2021: Router2: Router(config)# ip route 192.168.30.0 255.255.255.0 20.0.0.0
+Wed Dec 15 17:05:06 2021: Router1: Router> enable
+Wed Dec 15 17:05:06 2021: Router1: Router# configure terminal
+Wed Dec 15 17:05:06 2021: Router1: Router(config)# interface FastEthernet0/0
+Wed Dec 15 17:05:06 2021: Router1: Router(config-if)# ip address 192.168.30.1 255.255.255.0
+Wed Dec 15 17:05:06 2021: Router1: Router(config-if)# ip address 192.168.30.1 255.255.255.0
+Wed Dec 15 17:05:06 2021: Router1: Router(config-if)# no shutdown
+Wed Dec 15 17:05:06 2021: Router1: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router1: Router(config)# ip route 192.168.10.0 255.255.255.0 30.0.0.0
+Wed Dec 15 17:05:06 2021: Router1: Router(config)# ip route 192.168.20.0 255.255.255.0 30.0.0.0
+Wed Dec 15 17:05:06 2021: Router1: Router(config)# ip route 192.168.40.0 255.255.255.0 20.0.0.0
+Wed Dec 15 17:05:06 2021: Router2: Router(config)# interface FastEthernet0/0
+Wed Dec 15 17:05:06 2021: Router0: Router> en
+Wed Dec 15 17:05:06 2021: Router0: Router# conf term
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# int fa0/0
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# ip helpher-address 192.168.10.2
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# ip helper-address 192.168.10.2
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# exit
+Wed Dec 15 17:05:06 2021: Router0: Router# exit
+Wed Dec 15 17:05:06 2021: Router2: Router> en
+Wed Dec 15 17:05:06 2021: Router2: Router# conf term
+Wed Dec 15 17:05:06 2021: Router2: Router(config)# int fa0/0
+Wed Dec 15 17:05:06 2021: Router2: Router(config-if)# ip helper-address 192.168.10.2
+Wed Dec 15 17:05:06 2021: Router2: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router2: Router(config)# exit
+Wed Dec 15 17:05:06 2021: Router1: Router> en
+Wed Dec 15 17:05:06 2021: Router1: Router# conf term
+Wed Dec 15 17:05:06 2021: Router1: Router(config)# int fa0/0
+Wed Dec 15 17:05:06 2021: Router1: Router(config-if)# ip helper-address 192.168.10.2
+Wed Dec 15 17:05:06 2021: Router1: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router1: Router(config)# exit
+Wed Dec 15 17:05:06 2021: Router1: Router# exit
+Wed Dec 15 17:05:06 2021: PC0: C:\> 20.0.0.0
+Wed Dec 15 17:05:06 2021: Router0: Router> enable
+Wed Dec 15 17:05:06 2021: Router0: Router# configure terminal
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# interface Serial2/0
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# interface FastEthernet0/0
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# shutdown
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# interface FastEthernet0/0
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# interface FastEthernet1/0
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# interface FastEthernet0/0
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# interface FastEthernet1/0
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# ip address 197.45.65.1 255.255.255.0
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# ip address 197.45.65.1 255.255.255.0
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# interface FastEthernet0/0
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# ip address  
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# interface FastEthernet1/0
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# no ip route 192.168.30.0 255.255.255.0 30.0.0.0
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# no ip route 192.168.40.0 255.255.255.0 10.0.0.0
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# no ip route 192.168.20.0 255.255.255.0 0.0.0.0
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# ip route 182.220.0.0 255.255.0.0 30.0.0.0
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# ip route 201.23.26.0 255.255.255.0 10.0.0.0
+Wed Dec 15 17:05:06 2021: Router2: Router> enable
+Wed Dec 15 17:05:06 2021: Router2: Router# configure terminal
+Wed Dec 15 17:05:06 2021: Router2: Router(config)# interface FastEthernet0/0
+Wed Dec 15 17:05:06 2021: Router2: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router2: Router(config)# interface FastEthernet1/0
+Wed Dec 15 17:05:06 2021: Router2: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router2: Router(config)# interface FastEthernet0/0
+Wed Dec 15 17:05:06 2021: Router2: Router(config-if)# ip address 201.23.26.1 255.255.255.0
+Wed Dec 15 17:05:06 2021: Router2: Router(config-if)# ip address 201.23.26.1 255.255.255.0
+Wed Dec 15 17:05:06 2021: Router2: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router2: Router(config)# no ip route 192.168.10.0 255.255.255.0 10.0.0.0
+Wed Dec 15 17:05:06 2021: Router2: Router(config)# no ip route 192.168.20.0 255.255.255.0 10.0.0.0
+Wed Dec 15 17:05:06 2021: Router2: Router(config)# no ip route 192.168.30.0 255.255.255.0 20.0.0.0
+Wed Dec 15 17:05:06 2021: Router2: Router(config)# ip route 197.45.65.0 255.255.255.0 10.0.0.0
+Wed Dec 15 17:05:06 2021: Router2: Router(config)# ip route 182.220.0.0 255.255.0.0 20.0.0.0
+Wed Dec 15 17:05:06 2021: Router1: Router> enable
+Wed Dec 15 17:05:06 2021: Router1: Router# configure terminal
+Wed Dec 15 17:05:06 2021: Router1: Router(config)# interface FastEthernet0/0
+Wed Dec 15 17:05:06 2021: Router1: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router1: Router(config)# interface FastEthernet1/0
+Wed Dec 15 17:05:06 2021: Router1: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router1: Router(config)# interface FastEthernet0/0
+Wed Dec 15 17:05:06 2021: Router1: Router(config-if)# ip address 182.220.0.1 255.255.255.0
+Wed Dec 15 17:05:06 2021: Router1: Router(config-if)# ip address 182.220.0.1 255.255.0.0
+Wed Dec 15 17:05:06 2021: Router1: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router1: Router(config)# interface FastEthernet0/0
+Wed Dec 15 17:05:06 2021: Router1: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router1: Router(config)# no ip route 192.168.10.0 255.255.255.0 30.0.0.0
+Wed Dec 15 17:05:06 2021: Router1: Router(config)# no ip route 192.168.40.0 255.255.255.0 20.0.0.0
+Wed Dec 15 17:05:06 2021: Router1: Router(config)# no ip route 192.168.20.0 255.255.255.0 30.0.0.0
+Wed Dec 15 17:05:06 2021: Router1: Router(config)# interface FastEthernet0/0
+Wed Dec 15 17:05:06 2021: Router1: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router1: Router(config)# ip route 197.45.65.0 255.255.255.0 30.0.0.0
+Wed Dec 15 17:05:06 2021: Router1: Router(config)# ip route 201.23.26.0 255.255.255.0 20.0.0.0
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# exit
+Wed Dec 15 17:05:06 2021: Router0: Router# en
+Wed Dec 15 17:05:06 2021: Router0: Router# conf term
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# int fa1/0
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# ip helper-address 197.45.65.2
+Wed Dec 15 17:05:06 2021: Router0: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router0: Router(config)# exit
+Wed Dec 15 17:05:06 2021: Router2: Router(config)# exit
+Wed Dec 15 17:05:06 2021: Router2: Router# exit
+Wed Dec 15 17:05:06 2021: Router2: Router> en
+Wed Dec 15 17:05:06 2021: Router2: Router# conf term
+Wed Dec 15 17:05:06 2021: Router2: Router(config)# int fa0/0
+Wed Dec 15 17:05:06 2021: Router2: Router(config-if)# ip helper-address 197.45.65.2
+Wed Dec 15 17:05:06 2021: Router2: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router2: Router(config)# exit
+Wed Dec 15 17:05:06 2021: Router1: Router(config)# exit
+Wed Dec 15 17:05:06 2021: Router1: Router# exit
+Wed Dec 15 17:05:06 2021: Router1: Router> en
+Wed Dec 15 17:05:06 2021: Router1: Router# conf term
+Wed Dec 15 17:05:06 2021: Router1: Router(config)# int fa0/0
+Wed Dec 15 17:05:06 2021: Router1: Router(config-if)# ip helper-address 197.45.65.2
+Wed Dec 15 17:05:06 2021: Router1: Router(config-if)# exit
+Wed Dec 15 17:05:06 2021: Router1: Router(config)# exit
+Wed Dec 15 17:05:06 2021: Script Module stopping: File
+Wed Dec 15 17:05:06 2021: Script Module starting: File
+Wed Dec 15 17:05:06 2021: File opened successfully.
+Wed Dec 15 17:05:08 2021: CPtmpServer started at port 39000
+Wed Dec 15 17:05:08 2021: Script Module starting: net.netacad.cisco.ActivitySequenceEditor
+Wed Dec 15 17:05:08 2021: Script Module starting: net.netacad.cisco.ActivitySequencer
+Wed Dec 15 17:05:08 2021: Script Module starting: net.netacad.cisco.clearTerminalAgent
+Wed Dec 15 17:05:08 2021: Script Module starting: net.netacad.cisco.Marvel
+Wed Dec 15 17:05:08 2021: Script Module starting: net.netacad.cisco.PcSoftware
+Wed Dec 15 17:05:08 2021: Script Module starting: net.netacad.cisco.PTINTERNAL
+Wed Dec 15 17:05:08 2021: Script Module starting: net.netacad.cisco.resource
+Wed Dec 15 17:05:08 2021: c:\users\cisco\jenkins\workspace\m_sgme_pt80_win64_cae\engine\ipc\ccep.cpp(349):WARN  - Forced an exapp to be MANDATORY at run-time.

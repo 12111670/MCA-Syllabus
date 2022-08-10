@@ -1,0 +1,54 @@
+what is bootstrap?
+different colors
+where do we use .danger?
+different types of lists
+what do you mean by pagination?
+what is container?
+difference between container and container-fluid?
+what is responsive layout?
+bootstrap grid system, max no of columns
+what is padding?
+which class we use to define lists?
+inline items in list
+what is a table?
+what thead(<th>) will indicate
+can we create table for warning, table for danger?
+can we create forms using bootstrap?, How?
+different types of form layouts provided by bootstrap
+how many types of buttons are there?
+what is hover effect?
+button to indicate warning?
+what is form?
+various text alignment classes
+how can you add background colors?
+alerts using bootstrap
+what is bootstrap navbar?
+bootstrap cards
+how can we create a card?
+what is a modal in bootstrap?
+what is bootstrap jumbotron?
+Which class used for checkboxes in form?
+which classes are used to take password inputs?
+what do you mean by inline form layout?
+what is button group?
+types of button group
+Bootstrap media object
+Bootstrap badges
+how to create disabled buttons
+what do you mean by fluid layout?
+how do we align text in bootstrap?
+how can we vertically align div using bootstrap?
+what is carousel, and what is the class used for?
+what are bootstrap tabs?
+what is tooltips?
+what is fixed layout?
+what is bootstrap navbar?
+can we add video to carousel?, how?
+how to add icon in bootstrap?
+what is z-index property?
+what is flexibility?
+
+
+what is javascript?
+difference between let and var
+difference between let and const
